@@ -41,7 +41,6 @@ nav {
   height: 1px;
   left: 167px;
   top: 88px;
-
   background: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.25;
@@ -58,6 +57,12 @@ nav {
 ul {
   list-style: none;
   display: inline-flex;
+}
+li {
+  padding-right: 40px;
+}
+.strong-li {
+  padding-right: 10px;
 }
 #main-text {
   position: absolute;
@@ -90,9 +95,9 @@ h1 {
 h2 {
   position: absolute;
   height: 37px;
-  left: 22.63%;
+  left: 80px;
   right: 23.36%;
-  top: calc(50% - 37px / 2 + 0.5px);
+  top: 90px;
   font-family: "Bellefair";
   font-style: normal;
   font-weight: 400;
@@ -106,6 +111,44 @@ h2 {
     background-image: url("assets/home/background-home-mobile.jpg");
     background-repeat: no-repeat;
   }
+  .nav-line {
+    display: none;
+  }
+  #main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #main-text {
+    position: absolute;
+    text-align: center;
+    width: 327px;
+    height: 276px;
+    left: 24px;
+    top: 112px;
+  }
+  h1 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .h1-strong {
+    height: 100px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 100px / 2 - 53px);
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .main-p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #explore {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 113px;
+    top: 469px;
+  }
 }
 
 @media screen and (min-width: 1240px) {
@@ -117,5 +160,8 @@ h2 {
 @media (min-width: 768px) and (max-width: 822px) {
   body {
     background-image: url("assets/home/background-home-tablet.jpg");
+  }
+  .nav-line {
+    display: none;
   }
 }
