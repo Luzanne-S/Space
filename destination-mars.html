@@ -26,10 +26,68 @@
     <title>Frontend Mentor | Space tourism website</title>
   </head>
   <body>
-    00 Home 01 Destination 02 Crew 03 Technology 01 Pick your destination Moon
-    Mars Europa Titan Mars Don’t forget to pack your hiking boots. You’ll need
-    them to tackle Olympus Mons, the tallest planetary mountain in our solar
-    system. It’s two and a half times the size of Everest! Avg. distance 225
-    mil. km Est. travel time 9 months
+    <main>
+      <!--Navbar-->
+      <nav>
+        <div class="nav-icon">
+          <div class="nav-circle">
+            <div class="nav-star"></div>
+          </div>
+        </div>
+        <div class="nav-line"></div>
+        <div class="nav-items">
+          <ul>
+            <li>
+              <a href="index.html"><strong class="strong-li">00</strong>HOME</a>
+            </li>
+            <li>
+              <a href="destination-moon.html"
+                ><strong class="strong-li">01</strong> DESTINATION</a
+              >
+            </li>
+            <li>
+              <a href="crew-commander.html"
+                ><strong class="strong-li">02</strong>CREW</a
+              >
+            </li>
+            <li>
+              <a href="technology-vehicle.html"
+                ><strong class="strong-li">03</strong> TECHNOLOGY</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Main Content-->
+      <h2>01 Pick your destination</h2>
+      <section id="Mars-main">
+        <div class="mars-image">
+          <img src="assets/destination/image-mars.webp" class="image" />
+        </div>
+        <div class="mars-content">
+          <ul class="mars-ul">
+            <a href="destination-moon.html"><li>Moon</li></a>
+            <a href="destination-mars.html"><li>Mars</li></a>
+            <a href="destination-europa.html"><li>Europa</li></a>
+            <a href="destination-titan.html"><li>Titan</li></a>
+          </ul>
+          <h1>Mars</h1>
+          <p class="destination-p">
+            Don’t forget to pack your hiking boots. You’ll need them to tackle
+            Olympus Mons, the tallest planetary mountain in our solar system.
+            It’s two and a half times the size of Everest!
+          </p>
+          <hr />
+          <div class="distance-row">
+            <div class="distance-col1">
+              AVG. DISTANCE <strong>225 mil. KM</strong>
+            </div>
+            <div class="distance-col2">
+              EST. TRAVEL TIME <strong>9 MONTHS</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
