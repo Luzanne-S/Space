@@ -4,11 +4,13 @@
 body {
   font-family: "Barlow", sans-serif;
   background-image: url("assets/home/background-home-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #d0d6f9;
 }
 nav {
   position: absolute;
-  width: 1385px;
+  width: 60%;
   height: 96px;
   left: 55px;
   top: 40px;
@@ -28,13 +30,7 @@ nav {
   border-radius: 50%;
   background: #ffffff;
 }
-.nav-star {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 30px;
-  background: #0b0d17;
-}
+
 .nav-line {
   position: absolute;
   width: 473px;
@@ -47,7 +43,7 @@ nav {
 }
 .nav-items {
   position: absolute;
-  width: 830px;
+  width: 90%;
   height: 96px;
   left: 610px;
   top: 40px;
@@ -60,6 +56,7 @@ ul {
 }
 li {
   padding-right: 40px;
+  padding-top: 20px;
 }
 a {
   text-decoration: none;
@@ -99,7 +96,7 @@ h1 {
 h2 {
   position: absolute;
   height: 37px;
-  left: 80px;
+  left: 60px;
   right: 23.36%;
   top: 90px;
   font-family: "Bellefair";
@@ -153,6 +150,19 @@ h2 {
     left: 113px;
     top: 469px;
   }
+  h2 {
+    font-size: 20px;
+    height: 23px;
+    left: 19.67%;
+    right: 18.33%;
+    top: 35%;
+  }
+  .nav-icon {
+    width: 40px;
+    height: 40px;
+    left: -50px;
+    top: -10px;
+  }
 }
 
 @media screen and (min-width: 1240px) {
@@ -165,9 +175,33 @@ h2 {
   body {
     background-image: url("assets/home/background-home-tablet.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+
+    height: 100%;
+  }
+  #main-content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 334px;
+    left: 159px;
+    top: 202px;
+    text-align: center;
   }
   .nav-line {
     display: none;
+  }
+  .nav-items {
+    width: 729px;
+    height: 96px;
+    left: 39px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.026);
+    backdrop-filter: blur(81.5485px);
+  }
+  #explore {
+    width: 242px;
+    height: 242px;
+    left: 263px;
+    top: 692px;
   }
 }
