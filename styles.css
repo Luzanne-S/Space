@@ -13,7 +13,7 @@ nav {
   width: 60%;
   height: 96px;
   left: 55px;
-  top: 40px;
+  top: 0;
 }
 .nav-icon {
   position: absolute;
@@ -70,7 +70,7 @@ a {
   width: 450px;
   height: 382px;
   left: 165px;
-  top: 387px;
+  top: 300px;
 }
 h1 {
   font-family: "Barlow Condensed", sans-serif;
@@ -89,7 +89,7 @@ h1 {
   width: 274px;
   height: 274px;
   left: 1001px;
-  top: 495px;
+  top: 350px;
   background-color: #ffffff;
   border-radius: 50%;
 }
