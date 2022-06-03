@@ -5,24 +5,47 @@ body {
   font-family: "Barlow", sans-serif;
   background-image: url("assets/destination/background-destination-desktop.jpg");
   color: #d0d6f9;
+  scroll-behavior: smooth;
 }
-
-nav {
+nav,
+.nav-icon,
+.nav-circle,
+.nav-line,
+.nav-items,
+.mars-u,
+.moon-ul,
+.europa-ul,
+.mars-ul,
+.titan-ul,
+.destination-p,
+h1,
+h2,
+.moon-content,
+.europa-content,
+.mars-content,
+.titan-content,
+.moon-image,
+.europa-image,
+.mars-image,
+.titan-image,
+hr,
+.distance-col1,
+.distance-col2 {
   position: absolute;
+}
+nav {
   width: 1385px;
   height: 96px;
   left: 55px;
-  top: 40px;
+  top: 0;
 }
 .nav-icon {
-  position: absolute;
   width: 48px;
   height: 48px;
   left: 55px;
   top: 64px;
 }
 .nav-circle {
-  position: absolute;
   width: 48px;
   height: 48px;
   left: 30px;
@@ -30,7 +53,6 @@ nav {
   background: #ffffff;
 }
 .nav-line {
-  position: absolute;
   width: 473px;
   height: 1px;
   left: 167px;
@@ -40,7 +62,6 @@ nav {
   opacity: 0.25;
 }
 .nav-items {
-  position: absolute;
   width: 830px;
   height: 96px;
   left: 610px;
@@ -52,17 +73,16 @@ ul {
   list-style: none;
   display: inline-flex;
 }
+.mars-ul {
+  left: -50%;
+
+  top: 0%;
+  bottom: 92.8%;
+}
 li {
   padding-right: 40px;
 }
 
-a:hover {
-  left: 0%;
-  right: 85.64%;
-  top: 91.18%;
-  bottom: 0%;
-  background: #ffffff;
-}
 a {
   text-decoration: none;
   color: #d0d6f9;
@@ -85,14 +105,12 @@ a {
 .europa-ul,
 .mars-ul,
 .titan-ul {
-  position: absolute;
   left: 0%;
   right: 35.84%;
   top: 0%;
   bottom: 92.8%;
 }
 h1 {
-  position: absolute;
   height: 115px;
   left: 0.11%;
   right: 25.06%;
@@ -103,8 +121,13 @@ h1 {
   font-size: 100px;
   line-height: 115px;
 }
+h2 {
+  width: 382px;
+  height: 34px;
+  left: 166.5px;
+  top: 180px;
+}
 .destination-p {
-  position: absolute;
   height: 128px;
   left: 0%;
   right: 0.22%;
@@ -119,24 +142,21 @@ h1 {
 .europa-content,
 .mars-content,
 .titan-content {
-  position: absolute;
   width: 445px;
   height: 472px;
   left: 832px;
-  top: 310px;
+  top: 200px;
 }
 .moon-image,
 .europa-image,
 .mars-image,
 .titan-image {
-  position: absolute;
   width: 445px;
   height: 445px;
   left: 220px;
-  top: 352px;
+  top: 280px;
 }
 hr {
-  position: absolute;
   left: 0.22%;
   right: 0%;
   top: 80.93%;
@@ -145,7 +165,6 @@ hr {
   background: #383b4b;
 }
 .distance-col1 {
-  position: absolute;
   left: 0.11%;
   right: 67.75%;
   top: 87.08%;
@@ -153,7 +172,6 @@ hr {
   font-size: 14px;
 }
 .distance-col2 {
-  position: absolute;
   left: 50%;
   right: 22.58%;
   top: 87.08%;
