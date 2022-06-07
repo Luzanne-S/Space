@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  background-image: url("assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d0d6f9;
+}
+
+nav {
+  position: absolute;
+  width: 1385px;
+  height: 96px;
+  left: 55px;
+  top: 40px;
+}
+.nav-icon {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 55px;
+  top: 64px;
+}
+.nav-circle {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.nav-line {
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  left: 167px;
+  top: 88px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.nav-items {
+  position: absolute;
+  width: 830px;
+  height: 96px;
+  left: 610px;
+  top: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+ul {
+  list-style: none;
+  display: inline-flex;
+}
+li {
+  padding-right: 40px;
+}
+a {
+  text-decoration: none;
+  color: #d0d6f9;
+}
+.strong-li {
+  padding-right: 10px;
+}
+#technology {
+  display: flex;
+  flex-direction: row;
+}
+.tech-content {
+  position: absolute;
+  width: 470px;
+  height: 303px;
+  left: 325px;
+  top: 383px;
+}
+.tech-image {
+  position: absolute;
+  width: 515px;
+  height: 527px;
+  left: 925px;
+  top: 210px;
+}
+h1 {
+  position: absolute;
+  height: 64px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 64px / 2 - 89.5px);
+
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  position: absolute;
+  width: 305px;
+  height: 34px;
+  left: 166.5px;
+  top: 212px;
+}
+h3 {
+  position: absolute;
+  height: 19px;
+  left: 0%;
+  right: 40%;
+  top: calc(50% - 19px / 2 - 142px);
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+p {
+  position: absolute;
+  height: 192px;
+  left: 0%;
+  right: 5.53%;
+  top: 130px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.circle1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 383px;
+  border: solid;
+  border-radius: 50%;
+}
+.circle2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 495px;
+  border: solid;
+  border-radius: 50%;
+}
+.circle3 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 607px;
+  border: solid;
+  border-radius: 50%;
+}
+.number1 {
+  position: absolute;
+  height: 37px;
+  left: 44.38%;
+  right: 43.12%;
+  top: calc(50% - 37px / 2 + 0.5px);
+
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.number2 {
+  position: absolute;
+  height: 37px;
+  left: 40.62%;
+  right: 39.38%;
+  top: calc(50% - 37px / 2 + 0.5px);
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.number3 {
+  position: absolute;
+  height: 37px;
+  left: 40.62%;
+  right: 39.38%;
+  top: calc(50% - 37px / 2 + 0.5px);
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 360px) and (max-width: 419px) {
+  body {
+    background-image: url("assets/technology/background-technology-mobile.jpg");
+  }
+  #technology {
+    flex-direction: column;
+  }
+  .tech-index {
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    left: 112px;
+    top: 343px;
+  }
+}
+@media (min-width: 767px) and (max-width: 822px) {
+  body {
+    background-image: url("assets/technology/background-technology-tablet.jpg");
+  }
+  #technology {
+    flex-direction: column;
+  }
+  .tech-index {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 279px;
+    top: 586px;
+  }
+}
