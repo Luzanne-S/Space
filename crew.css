@@ -61,12 +61,33 @@ a {
   display: flex;
   flex-direction: row;
 }
-.crew-image {
+.command-img {
   position: absolute;
-  width: 568.07px;
-  height: 712px;
+  width: 410px;
+  height: auto;
   left: 734.93px;
   top: 178px;
+}
+.engineer-img {
+  position: absolute;
+  width: 420px;
+  height: auto;
+  left: 734.93px;
+  top: 300px;
+}
+.pilot-img {
+  position: absolute;
+  width: 410px;
+  height: auto;
+  left: 734.93px;
+  top: 260px;
+}
+.special-img {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  left: 800px;
+  top: 220px;
 }
 p {
   position: absolute;
@@ -81,13 +102,21 @@ h1 {
   width: 488px;
   height: 64px;
   left: 165.5px;
-  top: 452px;
+  top: 380px;
 
   font-family: "Bellefair";
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
+}
+
+p {
+  position: absolute;
+  width: 444px;
+  height: 128px;
+  left: 166px;
+  top: 480px;
 }
 .anousheh-h1 {
   width: 532px;
@@ -100,12 +129,12 @@ h2 {
   width: 214px;
   height: 37px;
   left: 165.5px;
-  top: 400px;
+  top: 300px;
 
   font-family: "Bellefair";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 37px;
   mix-blend-mode: normal;
   opacity: 0.5;
@@ -119,6 +148,7 @@ h3 {
   height: 34px;
   left: 166.5px;
   top: 212px;
+  font-size: 25px;
 }
 .dot,
 .dot1,
@@ -141,9 +171,7 @@ h3 {
 .dot3 {
   left: 284px;
 }
-.crew-links {
-  margin-top: 70px;
-}
+
 @media (min-width: 360px) and (max-width: 419px) {
   body {
     background-image: url("assets/crew/background-crew-mobile.jpg");
@@ -159,6 +187,7 @@ h3 {
     left: 24px;
     top: 139px;
   }
+
   .crew-content {
     position: absolute;
     width: 327px;
