@@ -105,7 +105,7 @@ a {
 .europa-ul,
 .mars-ul,
 .titan-ul {
-  left: 0%;
+  left: -7%;
   right: 35.84%;
   top: 0%;
   bottom: 92.8%;
@@ -144,7 +144,7 @@ h2 {
 .titan-content {
   width: 445px;
   height: 472px;
-  left: 832px;
+  left: 840px;
   top: 200px;
 }
 .moon-image,
